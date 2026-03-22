@@ -1,0 +1,28 @@
+# Local .terraform directories and files
+**/.terraform/*
+.terraform*
+
+!.terraformrc
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# own secret vars store.
+personal.auto.tfvars# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+key.json
+.authorized_key.json
+
+# Sensitive data
+*.pem
+*.key
+*.pub
+
+# OS files
+.DS_Store
+Thumbs.db
